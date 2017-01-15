@@ -4,4 +4,40 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 0
+    path: Assets/HighlightingSystemDemo/Scenes/01 Welcome.unity
+  - enabled: 0
+    path: Assets/HighlightingSystemDemo/Scenes/02 Colors.unity
+  - enabled: 0
+    path: Assets/HighlightingSystemDemo/Scenes/03 Transparency.unity
+  - enabled: 0
+    path: Assets/HighlightingSystemDemo/Scenes/04 Occlusion.unity
+  - enabled: 0
+    path: Assets/HighlightingSystemDemo/Scenes/05 OccluderModes.unity
+  - enabled: 0
+    path: Assets/HighlightingSystemDemo/Scenes/06 Scripting.unity
+  - enabled: 0
+    path: Assets/HighlightingSystemDemo/Scenes/07 Compound.unity
+  - enabled: 0
+    path: Assets/HighlightingSystemDemo/Scenes/08 LODGroup.unity
+  - enabled: 0
+    path: Assets/HighlightingSystemDemo/Scenes/09 Mobile.unity
+  - enabled: 0
+    path: Assets/HighlightingSystemDemo/Scenes/10 Revealer.unity
+  - enabled: 0
+    path: Assets/HighlightingSystemDemo/Scenes/11 RenderTexture.unity
+  - enabled: 0
+    path: Assets/HighlightingSystemDemo/Scenes/12 ViewportRect.unity
+  - enabled: 0
+    path: Assets/HighlightingSystemDemo/Scenes/13 CustomBlitter.unity
+  - enabled: 0
+    path: Assets/HighlightingSystemDemo/Scenes/14 ClearFlags.unity
+  - enabled: 0
+    path: Assets/HighlightingSystemDemo/Scenes/15 FPSCamera1.unity
+  - enabled: 0
+    path: Assets/HighlightingSystemDemo/Scenes/16 FPSCamera2.unity
+  - enabled: 0
+    path: Assets/HighlightingSystemDemo/Scenes/17 Toggle.unity
+  - enabled: 0
+    path: Assets/HighlightingSystemDemo/Scenes/18 VR.unity
