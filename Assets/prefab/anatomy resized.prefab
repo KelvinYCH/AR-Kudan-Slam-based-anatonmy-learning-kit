@@ -741,7 +741,7 @@ GameObject:
   - component: {fileID: 23658245566974986}
   - component: {fileID: 64112014163384798}
   m_Layer: 0
-  m_Name: Body_Genitals
+  m_Name: BodySkin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -867,7 +867,7 @@ GameObject:
   - component: {fileID: 23038711128871152}
   - component: {fileID: 64315843669313244}
   m_Layer: 0
-  m_Name: Nervous_Cerebrum_Multicolor
+  m_Name: Nervous_Cerebrum
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1170,7 +1170,7 @@ GameObject:
   - component: {fileID: 23888707619439402}
   - component: {fileID: 64498142157654990}
   m_Layer: 0
-  m_Name: UrinarySystem
+  m_Name: Urinary System
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1185,6 +1185,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4911443188969426}
   - component: {fileID: 95408641081404544}
+  - component: {fileID: 114339766366551442}
   m_Layer: 0
   m_Name: anatomy resized
   m_TagString: Untagged
@@ -2857,7 +2858,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &1759460174256672
 GameObject:
   m_ObjectHideFlags: 0
@@ -3063,7 +3064,7 @@ GameObject:
   - component: {fileID: 23325353737161374}
   - component: {fileID: 64279991213160562}
   m_Layer: 0
-  m_Name: ReproductiveSystem
+  m_Name: Reproductive System
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3384,7 +3385,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4385372762834162}
   m_Layer: 0
-  m_Name: LymphaticSystem
+  m_Name: Lymphatic System
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3797,7 +3798,7 @@ GameObject:
   - component: {fileID: 23606611742428964}
   - component: {fileID: 64154023954094212}
   m_Layer: 0
-  m_Name: DigestiveSystem
+  m_Name: Digestive System
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6420,7 +6421,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1341064320419988}
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: 0, y: -60, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 120, y: 120, z: 120}
   m_Children:
   - {fileID: 4383160858245790}
@@ -17521,3 +17522,14 @@ Light:
   m_BounceIntensity: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &114339766366551442
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1341064320419988}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c363e2d3b1ebbd342a79c7e17c0895c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

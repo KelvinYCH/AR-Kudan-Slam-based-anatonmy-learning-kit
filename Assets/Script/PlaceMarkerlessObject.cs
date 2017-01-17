@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using UnityEngine;
+using UnityEngine.UI;
 
 
 namespace Kudan.AR
@@ -9,10 +10,12 @@ namespace Kudan.AR
 		public KudanTracker _kudanTracker;
         public GameObject prefab;
         public GameObject MarkerlessObject;
+        public GameObject buttonText;
         private bool first = true;
         // from the floor placer.
         private Vector3 floorPosition;          // The current position in 3D space of the floor
         private Quaternion floorOrientation;    // The current orientation of the floor in 3D space, relative to the device
+
  
 
 
@@ -22,8 +25,9 @@ namespace Kudan.AR
             _kudanTracker.FloorPlaceGetPose(out floorPosition, out floorOrientation);   // Gets the position and orientation of the floor and assigns the referenced Vector3 and Quaternion those values
             if (first)
             {
-                _kudanTracker.ArbiTrackStart(floorPosition, floorOrientation);              // Starts markerless tracking based upon the given floor position and orientations
                 first = false;
+                _kudanTracker.ArbiTrackStart(floorPosition, floorOrientation);              // Starts markerless tracking based upon the given floor position and orientations
+                buttonText.GetComponent<Text>().text="Place Model";
             }
             else if (!first)
             {
