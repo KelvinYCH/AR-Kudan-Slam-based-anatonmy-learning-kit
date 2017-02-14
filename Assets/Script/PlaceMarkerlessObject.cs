@@ -8,17 +8,22 @@ namespace Kudan.AR
 	public class PlaceMarkerlessObject : MonoBehaviour
     {
 		public KudanTracker _kudanTracker;
+        public static KudanTracker kudanTracker;
         public GameObject prefab;
         public GameObject MarkerlessObject;
         public GameObject buttonText;
         private bool first = true;
         // from the floor placer.
-        private Vector3 floorPosition;          // The current position in 3D space of the floor
-        private Quaternion floorOrientation;    // The current orientation of the floor in 3D space, relative to the device
+        private static Vector3 floorPosition;          // The current position in 3D space of the floor
+        private static Quaternion floorOrientation;    // The current orientation of the floor in 3D space, relative to the device
 
  
 
 
+        void Start()
+        {
+            kudanTracker = _kudanTracker;
+        }
         public void PlaceClick()
         {
 
@@ -33,7 +38,7 @@ namespace Kudan.AR
             {
                 foreach (Transform child in MarkerlessObject.transform)
                 {
-                    if (Vector3.Distance(child.position, floorPosition) < 200)
+                    if (Vector3.Distance(child.position, floorPosition) < 150)
                     {
                         AndroidToast.ShowToastNotification("There are models nearby. Please choose another location", AndroidToast.LENGTH_LONG);
                         return;
@@ -42,11 +47,17 @@ namespace Kudan.AR
                 CreateModel();
             }
         }
-
+        
         public void CreateModel() {
-            floorPosition.y = floorPosition.y - 50;
+            floorPosition.y = floorPosition.y - 100;
             GameObject temp = Instantiate(prefab, floorPosition, floorOrientation);
             temp.transform.parent = MarkerlessObject.transform;
+        }
+
+        public static Vector3 GetCurrentPosition()
+        {
+            kudanTracker.FloorPlaceGetPose(out floorPosition, out floorOrientation);
+            return floorPosition;
         }
 
 
