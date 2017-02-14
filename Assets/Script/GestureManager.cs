@@ -154,7 +154,7 @@ public class GestureManager : MonoBehaviour
                         {
                             keyword = RayCast.aimingObject.transform.name.Substring(RayCast.aimingObject.transform.name.IndexOf("_") + 1).Replace(" ", "_");
                         }
-                        StartCoroutine(GetWiki("https://en.wikipedia.org/w/api.php?format=json&action=query&prop=extracts&exintro=&redirects=1&explaintext=&titles=" + keyword, (text) =>
+                        StartCoroutine(GetWiki("https://en.wikipedia.org/w/api.php?format=json&action=query&prop=extracts&exintro=&redirects=1&explaintext=&titles=" + keyword.ToLower(), (text) =>
                         {
                             Debug.Log(keyword);
                             string myString = text;
