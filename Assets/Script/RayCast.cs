@@ -5,7 +5,6 @@ using UnityEngine.UI;
 
 public class RayCast : MonoBehaviour {
     Camera camera;
-    public GameObject debugText;
     private Ray ray;
     public static GameObject aimingObject;
     public static bool aimChanged = true;

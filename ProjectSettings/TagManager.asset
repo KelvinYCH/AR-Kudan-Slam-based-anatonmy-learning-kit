@@ -7,6 +7,10 @@ TagManager:
   - Markerless
   - Marker
   - Short
+  - expanded
+  - light
+  - Animation
+  - BodyModel
   layers:
   - Default
   - TransparentFX

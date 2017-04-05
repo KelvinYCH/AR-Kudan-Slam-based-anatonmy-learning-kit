@@ -24,6 +24,7 @@ namespace Kudan.AR
         {
             kudanTracker = _kudanTracker;
         }
+
         public void PlaceClick()
         {
 
@@ -33,6 +34,7 @@ namespace Kudan.AR
                 first = false;
                 _kudanTracker.ArbiTrackStart(floorPosition, floorOrientation);              // Starts markerless tracking based upon the given floor position and orientations
                 buttonText.GetComponent<Text>().text="Place Model";
+                
             }
             else if (!first)
             {
@@ -47,17 +49,30 @@ namespace Kudan.AR
                 CreateModel();
             }
         }
-        
+        public void Update()
+        {
+            if (!first)
+            {
+                //_kudanTracker
+            }
+        }
+
         public void CreateModel() {
             floorPosition.y = floorPosition.y - 100;
             GameObject temp = Instantiate(prefab, floorPosition, floorOrientation);
             temp.transform.parent = MarkerlessObject.transform;
+
         }
 
         public static Vector3 GetCurrentPosition()
         {
             kudanTracker.FloorPlaceGetPose(out floorPosition, out floorOrientation);
             return floorPosition;
+        }
+        public static Quaternion GetCurrentOrientation()
+        {
+            kudanTracker.FloorPlaceGetPose(out floorPosition, out floorOrientation);
+            return floorOrientation;
         }
 
 

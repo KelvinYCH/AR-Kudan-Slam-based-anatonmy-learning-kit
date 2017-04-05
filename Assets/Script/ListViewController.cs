@@ -3,14 +3,16 @@ using System.Collections.Generic;
 using UnityEngine;
 using UIWidgets;
 
-public class ListViewController : MonoBehaviour {
+public class ListViewController : MonoBehaviour
+{
 
     public ListView bodySystemListView;
     private BodySystem bodySystem;
     private List<string> listContent;
     private bool updating = false;
     // Use this for initialization
-    void Start () {
+    void Start()
+    {
         var temp = bodySystemListView.DataSource;
         temp.Clear();
         listContent = new List<string>();
@@ -32,7 +34,7 @@ public class ListViewController : MonoBehaviour {
     // Update is called once per frame
     void Update()
     {
-        if (RayCast.aimingObject)
+        if (RayCast.aimingObject && RayCast.aimingObject.transform.parent.CompareTag("BodyModel"))
         {
             bodySystem = RayCast.aimingObject.transform.parent.gameObject.GetComponent<BodySystem>();
             if (bodySystem)
@@ -58,7 +60,8 @@ public class ListViewController : MonoBehaviour {
                 }
                 updating = false;
             }
-        }else
+        }
+        else
         {
             bodySystemListView.gameObject.SetActive(false);
             bodySystem = null;
@@ -69,52 +72,38 @@ public class ListViewController : MonoBehaviour {
     void updateSelectData(int index, ListViewItem item)
     {
 
-        if (RayCast.aimingObject&&!updating)
+        if (RayCast.aimingObject && !updating)
         {
-            bodySystem.systemSetting[listContent[index]] = true;
             foreach (Transform child in RayCast.aimingObject.transform.parent)
             {
-                
+
                 if (child.name.StartsWith(listContent[index].Split(' ')[0]))
                 {
-                    
-                    child.gameObject.SetActive(true);
 
+                    child.gameObject.SetActive(true);
                 }
             }
+            bodySystem = RayCast.aimingObject.transform.parent.gameObject.GetComponent<BodySystem>();
+            bodySystem.systemSetting[listContent[index]] = true;
         }
     }
 
     void updateDeSelectData(int index, ListViewItem item)
     {
-
-        if (RayCast.aimingObject && !updating && checkWillNotAllInactive())
+        Debug.Log("in DeselectData");
+        if (RayCast.aimingObject && !updating)
         {
-            bodySystem.systemSetting[listContent[index]] = false;
             foreach (Transform child in RayCast.aimingObject.transform.parent)
             {
                 if (child.name.StartsWith(listContent[index].Split(' ')[0]))
                 {
-                    
+
                     child.gameObject.SetActive(false);
                 }
             }
-        }else
-        {
-            AndroidToast.ShowToastNotification("You cannot deselect all system.", AndroidToast.LENGTH_LONG);
+            bodySystem = RayCast.aimingObject.transform.parent.gameObject.GetComponent<BodySystem>();
+            bodySystem.systemSetting[listContent[index]] = false;
         }
-    }
-    bool checkWillNotAllInactive()
-    {
-        int numberOfTrue=0;
-        foreach (bool child in bodySystem.systemSetting.Values)
-        {
-            if (child)
-            {
-                numberOfTrue++;
-            }
-        }
-        return numberOfTrue>1?true:false;
     }
 
 

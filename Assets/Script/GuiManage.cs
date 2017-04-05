@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class GuiManage : MonoBehaviour {
 
+    public GameObject WRButton;
+
 	// Use this for initialization
 	void Start () {
 		
@@ -11,9 +13,13 @@ public class GuiManage : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        if (RayCast.aimingObject)
+        if (RayCast.aimingObject!=null && RayCast.aimingObject.transform.parent.CompareTag("Animation")&&WRButton!=null)
         {
-
+            WRButton.SetActive(true);
+        }else
+        {
+            WRButton.SetActive(false);
         }
+        
 	}
 }

@@ -6,20 +6,29 @@ using System.Text;
 using SimpleJSON;
 using TMPro;
 using System;
-
+using Kudan.AR;
 public class GestureManager : MonoBehaviour
 {
     public GameObject container;
     public TMP_Text textContainer;
+    public GameObject walkingPrefab = null;
+    public GameObject MarkerlessObject;
+    
 
     private ScaleGestureRecognizer scaleGesture;
     private PanGestureRecognizer panGesture;
+    private TapGestureRecognizer doubleTapGesture;
+    private LongPressGestureRecognizer longPressGesture;
 
     private List<List<Vector2>> lineSet = new List<List<Vector2>>();
     private List<Vector2> currentPointList;
     private ImageGestureImage lastImage;
     public FingersScript FingersScript;
     public ImageGestureRecognizer imageGesture = new ImageGestureRecognizer();
+
+    private GameObject temp = null;
+    private Vector3 tempPos = new Vector3(0,0,0);
+    private Quaternion tempQuat = new Quaternion(0, 0, 0 , 0);
     private static readonly Dictionary<ImageGestureImage, string> recognizableImages = new Dictionary<ImageGestureImage, string>
         {
             //P
@@ -46,13 +55,22 @@ public class GestureManager : MonoBehaviour
             { new ImageGestureImage(new ulong[] { 0x0000000000000078, 0x0000000000000078, 0x000000000000003C, 0x000000000000003C, 0x000000000000001C, 0x000000000000001E, 0x000000000000001E, 0x000000000000000E, 0x000000000000000E, 0x000000000000000F, 0x000000000000000F, 0x0000000000000007, 0x0000000000000007, 0x0000000000000007, 0x0000000000000003, 0x0000000000000003 }, 16), "\\" },
             { new ImageGestureImage(new ulong[] { 0x000000000000F000, 0x000000000000FC00, 0x0000000000007E00, 0x0000000000003F80, 0x0000000000000FC0, 0x00000000000007F0, 0x00000000000001FC, 0x00000000000000FE, 0x000000000000003F, 0x000000000000000F, 0x0000000000000007, 0x0000000000000003, 0x0000000000000000, 0x0000000000000000, 0x0000000000000000, 0x0000000000000000 }, 16), "\\" },
 
-        //w
-            {new ImageGestureImage(new ulong[] { 0x0000000000000F9F, 0x0000000000001F9F, 0x0000000000001FFF, 0x0000000000003FFF, 0x0000000000003DFF, 0x00000000000079FF, 0x00000000000078F3, 0x000000000000F0F3, 0x000000000000F0F3, 0x000000000000E003, 0x000000000000E000, 0x0000000000000000, 0x0000000000000000, 0x0000000000000000, 0x0000000000000000, 0x0000000000000000 }, 16) ,"W"},
+            //w
+            { new ImageGestureImage(new ulong[] { 0x0000000000000F9F, 0x0000000000001F9F, 0x0000000000001FFF, 0x0000000000003FFF, 0x0000000000003DFF, 0x00000000000079FF, 0x00000000000078F3, 0x000000000000F0F3, 0x000000000000F0F3, 0x000000000000E003, 0x000000000000E000, 0x0000000000000000, 0x0000000000000000, 0x0000000000000000, 0x0000000000000000, 0x0000000000000000 }, 16) ,"W"},
             {new ImageGestureImage(new ulong[] { 0x0000000000000F0F, 0x0000000000001F1F, 0x0000000000001F3F, 0x0000000000003F7F, 0x0000000000003FFF, 0x0000000000007FF7, 0x0000000000007BF7, 0x000000000000F3E3, 0x000000000000F3C3, 0x000000000000E383, 0x000000000000E003, 0x0000000000000003, 0x0000000000000000, 0x0000000000000000, 0x0000000000000000, 0x0000000000000000 }, 16) ,"W"},
             {new ImageGestureImage(new ulong[] { 0x00000000000003FC, 0x00000000000007FC, 0x0000000000000FFE, 0x0000000000001FFE, 0x0000000000003FFE, 0x0000000000007CFF, 0x000000000000F8FF, 0x000000000000F0E7, 0x000000000000E007, 0x000000000000C003, 0x0000000000000003, 0x0000000000000003, 0x0000000000000000, 0x0000000000000000, 0x0000000000000000, 0x0000000000000000 }, 16) ,"W"},
             {new ImageGestureImage(new ulong[] { 0x0000000000000F1E, 0x0000000000000F1E, 0x0000000000001F1E, 0x0000000000001F1F, 0x0000000000003F3F, 0x0000000000003F3F, 0x0000000000003FFF, 0x0000000000007FFF, 0x0000000000007BF7, 0x000000000000F3F3, 0x000000000000F3E3, 0x000000000000E3E3, 0x000000000000E3C3, 0x000000000000C380, 0x0000000000000000, 0x0000000000000000 }, 16) ,"W"},
-            {new ImageGestureImage(new ulong[] { 0x000000000000000F, 0x00000000000003EF, 0x00000000000003FF, 0x00000000000007FF, 0x00000000000007FF, 0x0000000000000FFF, 0x0000000000000FFF, 0x0000000000001EFF, 0x0000000000001EF7, 0x0000000000003CF3, 0x0000000000007CE3, 0x0000000000007803, 0x0000000000007803, 0x0000000000007003, 0x0000000000000003, 0x0000000000000003 }, 16) ,"W"}
+            {new ImageGestureImage(new ulong[] { 0x000000000000000F, 0x00000000000003EF, 0x00000000000003FF, 0x00000000000007FF, 0x00000000000007FF, 0x0000000000000FFF, 0x0000000000000FFF, 0x0000000000001EFF, 0x0000000000001EF7, 0x0000000000003CF3, 0x0000000000007CE3, 0x0000000000007803, 0x0000000000007803, 0x0000000000007003, 0x0000000000000003, 0x0000000000000003 }, 16) ,"W"},
+            //a
+            {new ImageGestureImage(new ulong[] { 0x000000000000FFFF, 0x000000000000FFFF, 0x000000000000CFC7, 0x000000000000CFC3, 0x0000000000000783, 0x0000000000000783, 0x00000000000003C3, 0x00000000000003C3, 0x00000000000001E7, 0x00000000000001FF, 0x00000000000007FF, 0x00000000000007FE, 0x00000000000007F0, 0x0000000000000000, 0x0000000000000000, 0x0000000000000000 }, 16) ,"A"},
+            {new ImageGestureImage(new ulong[] { 0x000000000000FE7F, 0x000000000000FF7F, 0x000000000000CFF3, 0x00000000000007F3, 0x00000000000003F3, 0x00000000000003E3, 0x00000000000003E3, 0x00000000000003E7, 0x0000000000007FCF, 0x0000000000007FFF, 0x0000000000007FFE, 0x00000000000007FC, 0x00000000000000E0, 0x0000000000000000, 0x0000000000000000, 0x0000000000000000 }, 16) ,"A"},
+            {new ImageGestureImage(new ulong[] { 0x000000000000FFFF, 0x000000000000FFFF, 0x000000000000C7E3, 0x000000000000C7C3, 0x00000000000007CF, 0x000000000000079F, 0x000000000000FFBF, 0x000000000000FFFC, 0x000000000000FFF8, 0x0000000000001FF0, 0x0000000000000380, 0x0000000000000000, 0x0000000000000000, 0x0000000000000000, 0x0000000000000000, 0x0000000000000000 }, 16) ,"A"},
+            {new ImageGestureImage(new ulong[] { 0x000000000000FFFF, 0x000000000000FFFF, 0x000000000000FFE3, 0x000000000000C7E3, 0x000000000000C7C3, 0x0000000000003FC7, 0x0000000000003FFF, 0x0000000000003FFF, 0x00000000000007FE, 0x0000000000000038, 0x0000000000000000, 0x0000000000000000, 0x0000000000000000, 0x0000000000000000, 0x0000000000000000, 0x0000000000000000 }, 16) ,"A"},
+            {new ImageGestureImage(new ulong[] { 0x000000000000FFFF, 0x000000000000FFFF, 0x000000000000C3E3, 0x000000000000C3C3, 0x00000000000003C7, 0x00000000000003DF, 0x00000000000003FF, 0x0000000000000FFE, 0x0000000000000FFC, 0x0000000000000FE0, 0x0000000000000000, 0x0000000000000000, 0x0000000000000000, 0x0000000000000000, 0x0000000000000000, 0x0000000000000000 }, 16) ,"A"},
+            {new ImageGestureImage(new ulong[] { 0x000000000000FEFF, 0x000000000000FFFF, 0x000000000000CFF3, 0x0000000000000FC3, 0x0000000000000FC3, 0x0000000000000F83, 0x0000000000000F83, 0x0000000000000F83, 0x0000000000001F9F, 0x0000000000001FFF, 0x0000000000001FFF, 0x0000000000001FFC, 0x00000000000007F0, 0x0000000000000000, 0x0000000000000000, 0x0000000000000000 }, 16) ,"A"}
         };
+
+
 
     private void ScaleGestureCallback(GestureRecognizer gesture, ICollection<GestureTouch> touches)
     {
@@ -75,6 +93,23 @@ public class GestureManager : MonoBehaviour
         panGesture.MinimumNumberOfTouchesToTrack = 2;
         panGesture.Updated += PanGestureCallback;
         FingersScript.Instance.AddGesture(panGesture);
+    }
+
+    private void DoubleTapGestureCallback(GestureRecognizer gesture, ICollection<GestureTouch> touches)
+    {
+        if (gesture.State == GestureRecognizerState.Ended && RayCast.aimingObject)
+        {
+            //Debug.Log("Double Tap");
+            RayCast.aimingObject.transform.parent.gameObject.GetComponent<BodySystem>().expand();
+        }
+    }
+
+    private void CreateDoubleTapGesture()
+    {
+        doubleTapGesture = new TapGestureRecognizer();
+        doubleTapGesture.NumberOfTapsRequired = 2;
+        doubleTapGesture.Updated += DoubleTapGestureCallback;
+        FingersScript.Instance.AddGesture(doubleTapGesture);
     }
 
 
@@ -127,7 +162,7 @@ public class GestureManager : MonoBehaviour
             switch (recognizableImages[imageGesture.MatchedGestureImage])
             {
                 case "P":
-                    TTSsystem.read("test");
+                    TTSsystem.read(RayCast.aimingObject.transform.name.Replace("_"," "));
                     break;
                 case "Vertical":
                     if (RayCast.aimingObject)
@@ -160,10 +195,10 @@ public class GestureManager : MonoBehaviour
                             string myString = text;
                             byte[] bytes = Encoding.Default.GetBytes(myString);
                             myString = Encoding.UTF8.GetString(bytes);
-                            JSONNode temp = JSONNode.Parse(myString);
+                            JSONNode tempJson = JSONNode.Parse(myString);
 
 
-                            myString = temp["query"]["pages"][0]["extract"];
+                            myString = tempJson["query"]["pages"][0]["extract"];
                             if (myString == null || myString.Trim().Length <= 1)
                             {
                                 textContainer.SetText("Data Not Found!");
@@ -174,6 +209,13 @@ public class GestureManager : MonoBehaviour
                             }
                         }));
                     }
+                    break;
+                case "A":
+                    tempPos = PlaceMarkerlessObject.GetCurrentPosition();
+                    tempPos.y = tempPos.y - 100;
+                    tempQuat = PlaceMarkerlessObject.GetCurrentOrientation();
+                    GameObject temp = Instantiate(walkingPrefab, tempPos, tempQuat);
+                    temp.transform.parent = MarkerlessObject.transform;
                     break;
             }
         }
@@ -222,13 +264,57 @@ public class GestureManager : MonoBehaviour
         }
     }
 
+    private GestureTouch FirstTouch(ICollection<GestureTouch> touches)
+    {
+        foreach (GestureTouch t in touches)
+        {
+            return t;
+        }
+        return new GestureTouch();
+    }
+
+
+    private void DragTo(float screenX, float screenY)
+    {
+
+    }
+
+    private void LongPressGestureCallback(GestureRecognizer gesture, ICollection<GestureTouch> touches)
+    {
+        GestureTouch t = FirstTouch(touches);
+        if (gesture.State == GestureRecognizerState.Began)
+        {
+            temp = RayCast.aimingObject.transform.parent.gameObject;
+        }
+        else if (gesture.State == GestureRecognizerState.Executing)
+        {
+            tempPos = PlaceMarkerlessObject.GetCurrentPosition();
+            tempPos.y = tempPos.y - 100;
+            temp.transform.position = tempPos;
+        }
+        else if (gesture.State == GestureRecognizerState.Ended)
+        {
+            temp = null;
+        }
+    }
+
+    private void CreateLongPressGesture()
+    {
+        longPressGesture = new LongPressGestureRecognizer();
+        longPressGesture.MaximumNumberOfTouchesToTrack = 1;
+        longPressGesture.Updated += LongPressGestureCallback;
+        FingersScript.Instance.AddGesture(longPressGesture);
+    }
+
+
 
     // Use this for initialization
     void Start()
     {
         CreateScaleGesture();
         CreatePanGesture();
-        //CreateLongPressGesture();
+        CreateLongPressGesture();
+        CreateDoubleTapGesture();
         TapGestureRecognizer tap = new TapGestureRecognizer();
         tap.Updated += Tap_Updated;
         FingersScript.AddGesture(tap);

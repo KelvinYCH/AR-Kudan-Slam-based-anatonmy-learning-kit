@@ -39,9 +39,12 @@ namespace Kudan.AR
 		/// </summary>
 		public float _floorDepth = 200.0f;
 
-		/// <summary>
-		/// Processes the current frame.
-		/// </summary>
+        /// <summary>
+        /// Processes the current frame.
+        /// </summary>
+
+        public bool disableMarkerless = false;
+
 		public override void ProcessFrame()
 		{
             Vector3 position;
@@ -53,8 +56,14 @@ namespace Kudan.AR
             trackable.position = position;
             trackable.orientation = orientation;
 
-            trackable.isDetected = _kudanTracker.ArbiTrackIsTracking();
-
+            if (!disableMarkerless)
+            {
+                trackable.isDetected = _kudanTracker.ArbiTrackIsTracking();
+                _updateMarkerEvent.Invoke(trackable);
+            }else
+            {
+                trackable.isDetected = false;
+            }
             _updateMarkerEvent.Invoke(trackable);
 		}
 

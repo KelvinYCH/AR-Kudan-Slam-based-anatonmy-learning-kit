@@ -1,0 +1,2061 @@
+fileFormatVersion: 2
+guid: 7eff94bcaa42a7a4cbe76fc36654988a
+timeCreated: 1487522113
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Body_InnerEyes1
+    100004: Body_OuterEyes1
+    100006: mixamorig:Head
+    100008: mixamorig:HeadTop_End
+    100010: mixamorig:Hips
+    100012: mixamorig:LeftArm
+    100014: mixamorig:LeftFoot
+    100016: mixamorig:LeftForeArm
+    100018: mixamorig:LeftHand
+    100020: mixamorig:LeftHandIndex1
+    100022: mixamorig:LeftHandIndex2
+    100024: mixamorig:LeftHandIndex3
+    100026: mixamorig:LeftHandIndex4
+    100028: mixamorig:LeftLeg
+    100030: mixamorig:LeftShoulder
+    100032: mixamorig:LeftToe_End
+    100034: mixamorig:LeftToeBase
+    100036: mixamorig:LeftUpLeg
+    100038: mixamorig:Neck
+    100040: mixamorig:RightArm
+    100042: mixamorig:RightFoot
+    100044: mixamorig:RightForeArm
+    100046: mixamorig:RightHand
+    100048: mixamorig:RightHandIndex1
+    100050: mixamorig:RightHandIndex2
+    100052: mixamorig:RightHandIndex3
+    100054: mixamorig:RightHandIndex4
+    100056: mixamorig:RightLeg
+    100058: mixamorig:RightShoulder
+    100060: mixamorig:RightToe_End
+    100062: mixamorig:RightToeBase
+    100064: mixamorig:RightUpLeg
+    100066: mixamorig:Spine
+    100068: mixamorig:Spine1
+    100070: mixamorig:Spine2
+    100072: Muscular_Abductor_Digiti_Minimi
+    100074: Muscular_Abductor_Hallucis
+    100076: Muscular_Abductor_Pollicis_Longus
+    100078: Muscular_Adductor_Brevis
+    100080: Muscular_Adductor_Hallucis
+    100082: Muscular_Adductor_Longus
+    100084: Muscular_Adductor_Magnus
+    100086: Muscular_Adductor_Pollicis
+    100088: Muscular_Anconeus
+    100090: Muscular_Anterior_Deltoideus
+    100092: Muscular_Auricularis
+    100094: Muscular_Auricularis_Posterior
+    100096: Muscular_Biceps_Brachii
+    100098: Muscular_Biceps_Femoris
+    100100: Muscular_Brachialis
+    100102: Muscular_Brachioradialis
+    100104: Muscular_Buccinator
+    100106: Muscular_Caninus
+    100108: Muscular_Coracobrachialis
+    100110: Muscular_Corrugator
+    100112: Muscular_Depressor_Anguli_Oris
+    100114: Muscular_Depressor_Labii_Inferioris
+    100116: Muscular_Digastricus
+    100118: Muscular_Dilator_Naris
+    100120: Muscular_Dorsal_Intersosseus
+    100122: Muscular_Dorsal_Plantar_Interossei
+    100124: Muscular_Extensor_Carpi_Radialis_Brevis
+    100126: Muscular_Extensor_Carpi_Radialis_Longus
+    100128: Muscular_Extensor_Carpi_Ulnaris
+    100130: Muscular_Extensor_Digitorum
+    100132: Muscular_Extensor_Digitorum_Brevis
+    100134: Muscular_Extensor_Digitorum_Longus
+    100136: Muscular_Extensor_Hallucis_Longus
+    100138: Muscular_Extensor_Pollicis_Longus_and_Brevis
+    100140: Muscular_First_Dorsal_Interosseus
+    100142: Muscular_Flexor_Carpi_Radialis
+    100144: Muscular_Flexor_Carpi_Ulnaris
+    100146: Muscular_Flexor_Digiti_Minimi_Brevis
+    100148: Muscular_Flexor_Digitorum_Brevis
+    100150: Muscular_Flexor_Digitorum_Longus
+    100152: Muscular_Flexor_Digitorum_Superficialis
+    100154: Muscular_Flexor_Hallucis_Brevis
+    100156: Muscular_Flexor_Hallucis_Longus
+    100158: Muscular_Flexor_Pollicis_Longus
+    100160: Muscular_Frontalis
+    100162: Muscular_Gastrocnemius
+    100164: Muscular_Gluteus_Maximus_superficial
+    100166: Muscular_Gluteus_Medius
+    100168: Muscular_Gluteus_Minimus
+    100170: Muscular_Gracilis
+    100172: Muscular_Hypothenar_Eminence
+    100174: Muscular_Iliacus
+    100176: Muscular_Illiocostalis_Lumborum
+    100178: Muscular_Infraspinatus
+    100180: Muscular_Interossei_Palmares
+    100182: Muscular_Interspinales
+    100184: Muscular_Latissimus_Dorsi
+    100186: Muscular_Levator_Costarum
+    100188: Muscular_Levator_Labii_Superioris
+    100190: Muscular_Levator_Labii_Superioris_Alaeque_Nasi
+    100192: Muscular_Levator_Scapulae
+    100194: Muscular_Longissimus_Capitis
+    100196: Muscular_Longus_Capitus
+    100198: Muscular_Longus_Colli
+    100200: Muscular_Lumbricales_Palmares
+    100202: Muscular_Masseter
+    100204: Muscular_Medial_Deltoideus
+    100206: Muscular_Mentalis
+    100208: Muscular_Mylohyoideus
+    100210: Muscular_Nasalis
+    100212: Muscular_Obliquus_Capitis_Inferior
+    100214: Muscular_Obliquus_Capitis_Superior
+    100216: Muscular_Obliquus_Externus
+    100218: Muscular_Obliquus_Internus
+    100220: Muscular_Obturator_Externus
+    100222: Muscular_Obturator_Internus
+    100224: Muscular_Occipitalis
+    100226: Muscular_Omohyoideus
+    100228: Muscular_Opponens_Pollicis
+    100230: Muscular_Orbicularis_Oculi
+    100232: Muscular_Orbicularis_Oris
+    100234: Muscular_Palmaris_Longus
+    100236: Muscular_Pectineus
+    100238: Muscular_Pectoralis_Major
+    100240: Muscular_Pectoralis_Minor
+    100242: Muscular_Peroneus_Brevis
+    100244: Muscular_Peroneus_Longus
+    100246: Muscular_Peroneus_Tertius
+    100248: Muscular_Piriformis
+    100250: Muscular_Plantar_Interossei
+    100252: Muscular_Plantar_Lumbricales
+    100254: Muscular_Plantaris
+    100256: Muscular_Popliteus
+    100258: Muscular_Posterior_Deltoideus
+    100260: Muscular_Procerus
+    100262: Muscular_Pronator_Quadratus
+    100264: Muscular_Pronator_Teres
+    100266: Muscular_Psoas_Major
+    100268: Muscular_Psoas_Minor
+    100270: Muscular_Quadratus_Femoris
+    100272: Muscular_Quadratus_Lumborum
+    100274: Muscular_Quadratus_Plantae
+    100276: Muscular_Rectus_Abdominus
+    100278: Muscular_Rectus_Capitis_Posterior_Major
+    100280: Muscular_Rectus_Capitis_Posterior_Minor
+    100282: Muscular_Rectus_Femoris
+    100284: Muscular_Rhomboideus
+    100286: Muscular_Sartorius
+    100288: Muscular_Scalenus_Anterior
+    100290: Muscular_Scalenus_Posterior
+    100292: Muscular_Semimembranosus
+    100294: Muscular_Semispinalis_Capitis
+    100296: Muscular_Semitendinosus
+    100298: Muscular_Serratus_Anterior
+    100300: Muscular_Serratus_Posterior_Inferior
+    100302: Muscular_Serratus_Posterior_Superior
+    100304: Muscular_Soleus
+    100306: Muscular_Spinalis_Dorsi
+    100308: Muscular_Splenius_Capitis_intermediate
+    100310: Muscular_Splenius_Cervicis
+    100312: Muscular_Sternocleidomastoideus_superficial
+    100314: Muscular_Sternohyoideus
+    100316: Muscular_Sternothyroideus
+    100318: Muscular_Stylohyoideus
+    100320: Muscular_Subscapularis
+    100322: Muscular_Supraspinatis
+    100324: Muscular_Temporalis
+    100326: Muscular_Tensor_Fascia_Latae
+    100328: Muscular_Teres_Major
+    100330: Muscular_Teres_Minor
+    100332: Muscular_Thyrohyoideus
+    100334: Muscular_Tibialis_Anterior
+    100336: Muscular_Tibialis_Posterior
+    100338: Muscular_Transverse_Abdominus
+    100340: Muscular_Transversospinales
+    100342: Muscular_Trapezius
+    100344: Muscular_Triceps_Brachii
+    100346: Muscular_Vastus_Lateralis
+    100348: Muscular_Vastus_Medialis
+    100350: Muscular_Zygomaticus_Major
+    100352: Muscular_Zygomaticus_Minor
+    100354: ReproductiveSystem
+    100356: Skeletal_Calcaneus
+    100358: Skeletal_Carpal
+    100360: Skeletal_Cervical_Vertebra
+    100362: Skeletal_Clavicle
+    100364: Skeletal_Cranium
+    100366: Skeletal_Femur
+    100368: Skeletal_Fibula
+    100370: Skeletal_Humerus
+    100372: Skeletal_Malleolus
+    100374: Skeletal_Mandible
+    100376: Skeletal_Metacarpal
+    100378: Skeletal_Metatarsal
+    100380: Skeletal_Patella
+    100382: Skeletal_Pelvis
+    100384: Skeletal_Phalanges_Foot
+    100386: Skeletal_Phalanges_Hand
+    100388: Skeletal_Pubis
+    100390: Skeletal_Radius
+    100392: Skeletal_Ribs
+    100394: Skeletal_Sacrum
+    100396: Skeletal_Scapula
+    100398: Skeletal_Sternum
+    100400: Skeletal_Tarsal
+    100402: Skeletal_Tibia
+    100404: Skeletal_Ulna
+    100406: Skeletal_Vertebral_Column
+    400000: //RootNode
+    400002: Body_InnerEyes1
+    400004: Body_OuterEyes1
+    400006: mixamorig:Head
+    400008: mixamorig:HeadTop_End
+    400010: mixamorig:Hips
+    400012: mixamorig:LeftArm
+    400014: mixamorig:LeftFoot
+    400016: mixamorig:LeftForeArm
+    400018: mixamorig:LeftHand
+    400020: mixamorig:LeftHandIndex1
+    400022: mixamorig:LeftHandIndex2
+    400024: mixamorig:LeftHandIndex3
+    400026: mixamorig:LeftHandIndex4
+    400028: mixamorig:LeftLeg
+    400030: mixamorig:LeftShoulder
+    400032: mixamorig:LeftToe_End
+    400034: mixamorig:LeftToeBase
+    400036: mixamorig:LeftUpLeg
+    400038: mixamorig:Neck
+    400040: mixamorig:RightArm
+    400042: mixamorig:RightFoot
+    400044: mixamorig:RightForeArm
+    400046: mixamorig:RightHand
+    400048: mixamorig:RightHandIndex1
+    400050: mixamorig:RightHandIndex2
+    400052: mixamorig:RightHandIndex3
+    400054: mixamorig:RightHandIndex4
+    400056: mixamorig:RightLeg
+    400058: mixamorig:RightShoulder
+    400060: mixamorig:RightToe_End
+    400062: mixamorig:RightToeBase
+    400064: mixamorig:RightUpLeg
+    400066: mixamorig:Spine
+    400068: mixamorig:Spine1
+    400070: mixamorig:Spine2
+    400072: Muscular_Abductor_Digiti_Minimi
+    400074: Muscular_Abductor_Hallucis
+    400076: Muscular_Abductor_Pollicis_Longus
+    400078: Muscular_Adductor_Brevis
+    400080: Muscular_Adductor_Hallucis
+    400082: Muscular_Adductor_Longus
+    400084: Muscular_Adductor_Magnus
+    400086: Muscular_Adductor_Pollicis
+    400088: Muscular_Anconeus
+    400090: Muscular_Anterior_Deltoideus
+    400092: Muscular_Auricularis
+    400094: Muscular_Auricularis_Posterior
+    400096: Muscular_Biceps_Brachii
+    400098: Muscular_Biceps_Femoris
+    400100: Muscular_Brachialis
+    400102: Muscular_Brachioradialis
+    400104: Muscular_Buccinator
+    400106: Muscular_Caninus
+    400108: Muscular_Coracobrachialis
+    400110: Muscular_Corrugator
+    400112: Muscular_Depressor_Anguli_Oris
+    400114: Muscular_Depressor_Labii_Inferioris
+    400116: Muscular_Digastricus
+    400118: Muscular_Dilator_Naris
+    400120: Muscular_Dorsal_Intersosseus
+    400122: Muscular_Dorsal_Plantar_Interossei
+    400124: Muscular_Extensor_Carpi_Radialis_Brevis
+    400126: Muscular_Extensor_Carpi_Radialis_Longus
+    400128: Muscular_Extensor_Carpi_Ulnaris
+    400130: Muscular_Extensor_Digitorum
+    400132: Muscular_Extensor_Digitorum_Brevis
+    400134: Muscular_Extensor_Digitorum_Longus
+    400136: Muscular_Extensor_Hallucis_Longus
+    400138: Muscular_Extensor_Pollicis_Longus_and_Brevis
+    400140: Muscular_First_Dorsal_Interosseus
+    400142: Muscular_Flexor_Carpi_Radialis
+    400144: Muscular_Flexor_Carpi_Ulnaris
+    400146: Muscular_Flexor_Digiti_Minimi_Brevis
+    400148: Muscular_Flexor_Digitorum_Brevis
+    400150: Muscular_Flexor_Digitorum_Longus
+    400152: Muscular_Flexor_Digitorum_Superficialis
+    400154: Muscular_Flexor_Hallucis_Brevis
+    400156: Muscular_Flexor_Hallucis_Longus
+    400158: Muscular_Flexor_Pollicis_Longus
+    400160: Muscular_Frontalis
+    400162: Muscular_Gastrocnemius
+    400164: Muscular_Gluteus_Maximus_superficial
+    400166: Muscular_Gluteus_Medius
+    400168: Muscular_Gluteus_Minimus
+    400170: Muscular_Gracilis
+    400172: Muscular_Hypothenar_Eminence
+    400174: Muscular_Iliacus
+    400176: Muscular_Illiocostalis_Lumborum
+    400178: Muscular_Infraspinatus
+    400180: Muscular_Interossei_Palmares
+    400182: Muscular_Interspinales
+    400184: Muscular_Latissimus_Dorsi
+    400186: Muscular_Levator_Costarum
+    400188: Muscular_Levator_Labii_Superioris
+    400190: Muscular_Levator_Labii_Superioris_Alaeque_Nasi
+    400192: Muscular_Levator_Scapulae
+    400194: Muscular_Longissimus_Capitis
+    400196: Muscular_Longus_Capitus
+    400198: Muscular_Longus_Colli
+    400200: Muscular_Lumbricales_Palmares
+    400202: Muscular_Masseter
+    400204: Muscular_Medial_Deltoideus
+    400206: Muscular_Mentalis
+    400208: Muscular_Mylohyoideus
+    400210: Muscular_Nasalis
+    400212: Muscular_Obliquus_Capitis_Inferior
+    400214: Muscular_Obliquus_Capitis_Superior
+    400216: Muscular_Obliquus_Externus
+    400218: Muscular_Obliquus_Internus
+    400220: Muscular_Obturator_Externus
+    400222: Muscular_Obturator_Internus
+    400224: Muscular_Occipitalis
+    400226: Muscular_Omohyoideus
+    400228: Muscular_Opponens_Pollicis
+    400230: Muscular_Orbicularis_Oculi
+    400232: Muscular_Orbicularis_Oris
+    400234: Muscular_Palmaris_Longus
+    400236: Muscular_Pectineus
+    400238: Muscular_Pectoralis_Major
+    400240: Muscular_Pectoralis_Minor
+    400242: Muscular_Peroneus_Brevis
+    400244: Muscular_Peroneus_Longus
+    400246: Muscular_Peroneus_Tertius
+    400248: Muscular_Piriformis
+    400250: Muscular_Plantar_Interossei
+    400252: Muscular_Plantar_Lumbricales
+    400254: Muscular_Plantaris
+    400256: Muscular_Popliteus
+    400258: Muscular_Posterior_Deltoideus
+    400260: Muscular_Procerus
+    400262: Muscular_Pronator_Quadratus
+    400264: Muscular_Pronator_Teres
+    400266: Muscular_Psoas_Major
+    400268: Muscular_Psoas_Minor
+    400270: Muscular_Quadratus_Femoris
+    400272: Muscular_Quadratus_Lumborum
+    400274: Muscular_Quadratus_Plantae
+    400276: Muscular_Rectus_Abdominus
+    400278: Muscular_Rectus_Capitis_Posterior_Major
+    400280: Muscular_Rectus_Capitis_Posterior_Minor
+    400282: Muscular_Rectus_Femoris
+    400284: Muscular_Rhomboideus
+    400286: Muscular_Sartorius
+    400288: Muscular_Scalenus_Anterior
+    400290: Muscular_Scalenus_Posterior
+    400292: Muscular_Semimembranosus
+    400294: Muscular_Semispinalis_Capitis
+    400296: Muscular_Semitendinosus
+    400298: Muscular_Serratus_Anterior
+    400300: Muscular_Serratus_Posterior_Inferior
+    400302: Muscular_Serratus_Posterior_Superior
+    400304: Muscular_Soleus
+    400306: Muscular_Spinalis_Dorsi
+    400308: Muscular_Splenius_Capitis_intermediate
+    400310: Muscular_Splenius_Cervicis
+    400312: Muscular_Sternocleidomastoideus_superficial
+    400314: Muscular_Sternohyoideus
+    400316: Muscular_Sternothyroideus
+    400318: Muscular_Stylohyoideus
+    400320: Muscular_Subscapularis
+    400322: Muscular_Supraspinatis
+    400324: Muscular_Temporalis
+    400326: Muscular_Tensor_Fascia_Latae
+    400328: Muscular_Teres_Major
+    400330: Muscular_Teres_Minor
+    400332: Muscular_Thyrohyoideus
+    400334: Muscular_Tibialis_Anterior
+    400336: Muscular_Tibialis_Posterior
+    400338: Muscular_Transverse_Abdominus
+    400340: Muscular_Transversospinales
+    400342: Muscular_Trapezius
+    400344: Muscular_Triceps_Brachii
+    400346: Muscular_Vastus_Lateralis
+    400348: Muscular_Vastus_Medialis
+    400350: Muscular_Zygomaticus_Major
+    400352: Muscular_Zygomaticus_Minor
+    400354: ReproductiveSystem
+    400356: Skeletal_Calcaneus
+    400358: Skeletal_Carpal
+    400360: Skeletal_Cervical_Vertebra
+    400362: Skeletal_Clavicle
+    400364: Skeletal_Cranium
+    400366: Skeletal_Femur
+    400368: Skeletal_Fibula
+    400370: Skeletal_Humerus
+    400372: Skeletal_Malleolus
+    400374: Skeletal_Mandible
+    400376: Skeletal_Metacarpal
+    400378: Skeletal_Metatarsal
+    400380: Skeletal_Patella
+    400382: Skeletal_Pelvis
+    400384: Skeletal_Phalanges_Foot
+    400386: Skeletal_Phalanges_Hand
+    400388: Skeletal_Pubis
+    400390: Skeletal_Radius
+    400392: Skeletal_Ribs
+    400394: Skeletal_Sacrum
+    400396: Skeletal_Scapula
+    400398: Skeletal_Sternum
+    400400: Skeletal_Tarsal
+    400402: Skeletal_Tibia
+    400404: Skeletal_Ulna
+    400406: Skeletal_Vertebral_Column
+    4300000: Body_InnerEyes1
+    4300002: Body_OuterEyes1
+    4300004: Muscular_Dilator_Naris
+    4300006: Muscular_Orbicularis_Oris
+    4300008: Muscular_Scalenus_Posterior
+    4300010: Muscular_Pectoralis_Minor
+    4300012: Muscular_Serratus_Anterior
+    4300014: Muscular_Rhomboideus
+    4300016: Muscular_Illiocostalis_Lumborum
+    4300018: Muscular_Semispinalis_Capitis
+    4300020: Muscular_Sternocleidomastoideus_superficial
+    4300022: Muscular_Trapezius
+    4300024: Muscular_Latissimus_Dorsi
+    4300026: Muscular_Pectoralis_Major
+    4300028: Muscular_Gluteus_Medius
+    4300030: Muscular_Obturator_Internus
+    4300032: Muscular_Extensor_Pollicis_Longus_and_Brevis
+    4300034: Muscular_Biceps_Brachii
+    4300036: Muscular_Extensor_Digitorum
+    4300038: Muscular_Flexor_Digitorum_Superficialis
+    4300040: Muscular_Adductor_Magnus
+    4300042: Muscular_Semimembranosus
+    4300044: Muscular_Flexor_Digitorum_Longus
+    4300046: Muscular_Quadratus_Plantae
+    4300048: Muscular_Rectus_Femoris
+    4300050: Muscular_Tensor_Fascia_Latae
+    4300052: Muscular_Extensor_Digitorum_Longus
+    4300054: Muscular_Gastrocnemius
+    4300056: Muscular_Extensor_Digitorum_Brevis
+    4300058: Muscular_Flexor_Digitorum_Brevis
+    4300060: Muscular_Temporalis
+    4300062: Muscular_Corrugator
+    4300064: Muscular_Procerus
+    4300066: Muscular_Nasalis
+    4300068: Muscular_Buccinator
+    4300070: Muscular_Depressor_Labii_Inferioris
+    4300072: Muscular_Mentalis
+    4300074: Muscular_Caninus
+    4300076: Muscular_Levator_Labii_Superioris
+    4300078: Muscular_Frontalis
+    4300080: Muscular_Auricularis
+    4300082: Muscular_Levator_Labii_Superioris_Alaeque_Nasi
+    4300084: Muscular_Auricularis_Posterior
+    4300086: Muscular_Occipitalis
+    4300088: Muscular_Depressor_Anguli_Oris
+    4300090: Muscular_Masseter
+    4300092: Muscular_Zygomaticus_Minor
+    4300094: Muscular_Zygomaticus_Major
+    4300096: Muscular_Mylohyoideus
+    4300098: Muscular_Sternothyroideus
+    4300100: Muscular_Thyrohyoideus
+    4300102: Muscular_Longus_Colli
+    4300104: Muscular_Longus_Capitus
+    4300106: Muscular_Scalenus_Anterior
+    4300108: Muscular_Obliquus_Capitis_Superior
+    4300110: Muscular_Obliquus_Capitis_Inferior
+    4300112: Muscular_Quadratus_Lumborum
+    4300114: Muscular_Levator_Costarum
+    4300116: Muscular_Transversospinales
+    4300118: Muscular_Interspinales
+    4300120: Muscular_Rectus_Capitis_Posterior_Major
+    4300122: Muscular_Rectus_Capitis_Posterior_Minor
+    4300124: Muscular_Subscapularis
+    4300126: Muscular_Splenius_Capitis_intermediate
+    4300128: Muscular_Levator_Scapulae
+    4300130: Muscular_Splenius_Cervicis
+    4300132: Muscular_Longissimus_Capitis
+    4300134: Muscular_Spinalis_Dorsi
+    4300136: Muscular_Serratus_Posterior_Inferior
+    4300138: Muscular_Serratus_Posterior_Superior
+    4300140: Muscular_Teres_Minor
+    4300142: Muscular_Teres_Major
+    4300144: Muscular_Supraspinatis
+    4300146: Muscular_Sternohyoideus
+    4300148: Muscular_Omohyoideus
+    4300150: Muscular_Digastricus
+    4300152: Muscular_Stylohyoideus
+    4300154: Muscular_Infraspinatus
+    4300156: Muscular_Psoas_Major
+    4300158: Muscular_Psoas_Minor
+    4300160: Muscular_Iliacus
+    4300162: Muscular_Gluteus_Minimus
+    4300164: Muscular_Piriformis
+    4300166: Muscular_Quadratus_Femoris
+    4300168: Muscular_Obturator_Externus
+    4300170: Muscular_Gluteus_Maximus_superficial
+    4300172: Muscular_Pectineus
+    4300174: Muscular_Brachialis
+    4300176: Muscular_Coracobrachialis
+    4300178: Muscular_Abductor_Pollicis_Longus
+    4300180: Muscular_Extensor_Carpi_Radialis_Brevis
+    4300182: Muscular_Flexor_Pollicis_Longus
+    4300184: Muscular_Pronator_Quadratus
+    4300186: Muscular_Interossei_Palmares
+    4300188: Muscular_Lumbricales_Palmares
+    4300190: Muscular_Dorsal_Intersosseus
+    4300192: Muscular_Anterior_Deltoideus
+    4300194: Muscular_Medial_Deltoideus
+    4300196: Muscular_Posterior_Deltoideus
+    4300198: Muscular_Triceps_Brachii
+    4300200: Muscular_Brachioradialis
+    4300202: Muscular_Extensor_Carpi_Radialis_Longus
+    4300204: Muscular_Anconeus
+    4300206: Muscular_Extensor_Carpi_Ulnaris
+    4300208: Muscular_Flexor_Carpi_Ulnaris
+    4300210: Muscular_Pronator_Teres
+    4300212: Muscular_Palmaris_Longus
+    4300214: Muscular_Flexor_Carpi_Radialis
+    4300216: Muscular_Adductor_Pollicis
+    4300218: Muscular_Opponens_Pollicis
+    4300220: Muscular_Hypothenar_Eminence
+    4300222: Muscular_First_Dorsal_Interosseus
+    4300224: Muscular_Adductor_Brevis
+    4300226: Muscular_Popliteus
+    4300228: Muscular_Peroneus_Longus
+    4300230: Muscular_Peroneus_Brevis
+    4300232: Muscular_Peroneus_Tertius
+    4300234: Muscular_Flexor_Hallucis_Longus
+    4300236: Muscular_Tibialis_Posterior
+    4300238: Muscular_Flexor_Hallucis_Brevis
+    4300240: Muscular_Plantar_Lumbricales
+    4300242: Muscular_Adductor_Hallucis
+    4300244: Muscular_Flexor_Digiti_Minimi_Brevis
+    4300246: Muscular_Dorsal_Plantar_Interossei
+    4300248: Muscular_Plantar_Interossei
+    4300250: Muscular_Sartorius
+    4300252: Muscular_Vastus_Medialis
+    4300254: Muscular_Vastus_Lateralis
+    4300256: Muscular_Adductor_Longus
+    4300258: Muscular_Gracilis
+    4300260: Muscular_Biceps_Femoris
+    4300262: Muscular_Semitendinosus
+    4300264: Muscular_Tibialis_Anterior
+    4300266: Muscular_Extensor_Hallucis_Longus
+    4300268: Muscular_Soleus
+    4300270: Muscular_Plantaris
+    4300272: Muscular_Abductor_Digiti_Minimi
+    4300274: Muscular_Abductor_Hallucis
+    4300276: Muscular_Orbicularis_Oculi
+    4300278: Muscular_Obliquus_Externus
+    4300280: Muscular_Obliquus_Internus
+    4300282: Muscular_Rectus_Abdominus
+    4300284: Muscular_Transverse_Abdominus
+    4300286: Skeletal_Calcaneus
+    4300288: Skeletal_Carpal
+    4300290: Skeletal_Cervical_Vertebra
+    4300292: Skeletal_Clavicle
+    4300294: Skeletal_Cranium
+    4300296: Skeletal_Femur
+    4300298: Skeletal_Fibula
+    4300300: Skeletal_Humerus
+    4300302: Skeletal_Malleolus
+    4300304: Skeletal_Mandible
+    4300306: Skeletal_Metacarpal
+    4300308: Skeletal_Metatarsal
+    4300310: Skeletal_Patella
+    4300312: Skeletal_Pelvis
+    4300314: Skeletal_Phalanges_Foot
+    4300316: Skeletal_Phalanges_Hand
+    4300318: Skeletal_Radius
+    4300320: Skeletal_Ribs
+    4300322: Skeletal_Sacrum
+    4300324: Skeletal_Scapula
+    4300326: Skeletal_Sternum
+    4300328: Skeletal_Tarsal
+    4300330: Skeletal_Tibia
+    4300332: Skeletal_Ulna
+    4300334: Skeletal_Vertebral_Column
+    4300336: Skeletal_Pubis
+    4300338: ReproductiveSystem
+    7400000: mixamo.com
+    9500000: //RootNode
+    13700000: Body_InnerEyes1
+    13700002: Body_OuterEyes1
+    13700004: Muscular_Abductor_Digiti_Minimi
+    13700006: Muscular_Abductor_Hallucis
+    13700008: Muscular_Abductor_Pollicis_Longus
+    13700010: Muscular_Adductor_Brevis
+    13700012: Muscular_Adductor_Hallucis
+    13700014: Muscular_Adductor_Longus
+    13700016: Muscular_Adductor_Magnus
+    13700018: Muscular_Adductor_Pollicis
+    13700020: Muscular_Anconeus
+    13700022: Muscular_Anterior_Deltoideus
+    13700024: Muscular_Auricularis
+    13700026: Muscular_Auricularis_Posterior
+    13700028: Muscular_Biceps_Brachii
+    13700030: Muscular_Biceps_Femoris
+    13700032: Muscular_Brachialis
+    13700034: Muscular_Brachioradialis
+    13700036: Muscular_Buccinator
+    13700038: Muscular_Caninus
+    13700040: Muscular_Coracobrachialis
+    13700042: Muscular_Corrugator
+    13700044: Muscular_Depressor_Anguli_Oris
+    13700046: Muscular_Depressor_Labii_Inferioris
+    13700048: Muscular_Digastricus
+    13700050: Muscular_Dilator_Naris
+    13700052: Muscular_Dorsal_Intersosseus
+    13700054: Muscular_Dorsal_Plantar_Interossei
+    13700056: Muscular_Extensor_Carpi_Radialis_Brevis
+    13700058: Muscular_Extensor_Carpi_Radialis_Longus
+    13700060: Muscular_Extensor_Carpi_Ulnaris
+    13700062: Muscular_Extensor_Digitorum
+    13700064: Muscular_Extensor_Digitorum_Brevis
+    13700066: Muscular_Extensor_Digitorum_Longus
+    13700068: Muscular_Extensor_Hallucis_Longus
+    13700070: Muscular_Extensor_Pollicis_Longus_and_Brevis
+    13700072: Muscular_First_Dorsal_Interosseus
+    13700074: Muscular_Flexor_Carpi_Radialis
+    13700076: Muscular_Flexor_Carpi_Ulnaris
+    13700078: Muscular_Flexor_Digiti_Minimi_Brevis
+    13700080: Muscular_Flexor_Digitorum_Brevis
+    13700082: Muscular_Flexor_Digitorum_Longus
+    13700084: Muscular_Flexor_Digitorum_Superficialis
+    13700086: Muscular_Flexor_Hallucis_Brevis
+    13700088: Muscular_Flexor_Hallucis_Longus
+    13700090: Muscular_Flexor_Pollicis_Longus
+    13700092: Muscular_Frontalis
+    13700094: Muscular_Gastrocnemius
+    13700096: Muscular_Gluteus_Maximus_superficial
+    13700098: Muscular_Gluteus_Medius
+    13700100: Muscular_Gluteus_Minimus
+    13700102: Muscular_Gracilis
+    13700104: Muscular_Hypothenar_Eminence
+    13700106: Muscular_Iliacus
+    13700108: Muscular_Illiocostalis_Lumborum
+    13700110: Muscular_Infraspinatus
+    13700112: Muscular_Interossei_Palmares
+    13700114: Muscular_Interspinales
+    13700116: Muscular_Latissimus_Dorsi
+    13700118: Muscular_Levator_Costarum
+    13700120: Muscular_Levator_Labii_Superioris
+    13700122: Muscular_Levator_Labii_Superioris_Alaeque_Nasi
+    13700124: Muscular_Levator_Scapulae
+    13700126: Muscular_Longissimus_Capitis
+    13700128: Muscular_Longus_Capitus
+    13700130: Muscular_Longus_Colli
+    13700132: Muscular_Lumbricales_Palmares
+    13700134: Muscular_Masseter
+    13700136: Muscular_Medial_Deltoideus
+    13700138: Muscular_Mentalis
+    13700140: Muscular_Mylohyoideus
+    13700142: Muscular_Nasalis
+    13700144: Muscular_Obliquus_Capitis_Inferior
+    13700146: Muscular_Obliquus_Capitis_Superior
+    13700148: Muscular_Obliquus_Externus
+    13700150: Muscular_Obliquus_Internus
+    13700152: Muscular_Obturator_Externus
+    13700154: Muscular_Obturator_Internus
+    13700156: Muscular_Occipitalis
+    13700158: Muscular_Omohyoideus
+    13700160: Muscular_Opponens_Pollicis
+    13700162: Muscular_Orbicularis_Oculi
+    13700164: Muscular_Orbicularis_Oris
+    13700166: Muscular_Palmaris_Longus
+    13700168: Muscular_Pectineus
+    13700170: Muscular_Pectoralis_Major
+    13700172: Muscular_Pectoralis_Minor
+    13700174: Muscular_Peroneus_Brevis
+    13700176: Muscular_Peroneus_Longus
+    13700178: Muscular_Peroneus_Tertius
+    13700180: Muscular_Piriformis
+    13700182: Muscular_Plantar_Interossei
+    13700184: Muscular_Plantar_Lumbricales
+    13700186: Muscular_Plantaris
+    13700188: Muscular_Popliteus
+    13700190: Muscular_Posterior_Deltoideus
+    13700192: Muscular_Procerus
+    13700194: Muscular_Pronator_Quadratus
+    13700196: Muscular_Pronator_Teres
+    13700198: Muscular_Psoas_Major
+    13700200: Muscular_Psoas_Minor
+    13700202: Muscular_Quadratus_Femoris
+    13700204: Muscular_Quadratus_Lumborum
+    13700206: Muscular_Quadratus_Plantae
+    13700208: Muscular_Rectus_Abdominus
+    13700210: Muscular_Rectus_Capitis_Posterior_Major
+    13700212: Muscular_Rectus_Capitis_Posterior_Minor
+    13700214: Muscular_Rectus_Femoris
+    13700216: Muscular_Rhomboideus
+    13700218: Muscular_Sartorius
+    13700220: Muscular_Scalenus_Anterior
+    13700222: Muscular_Scalenus_Posterior
+    13700224: Muscular_Semimembranosus
+    13700226: Muscular_Semispinalis_Capitis
+    13700228: Muscular_Semitendinosus
+    13700230: Muscular_Serratus_Anterior
+    13700232: Muscular_Serratus_Posterior_Inferior
+    13700234: Muscular_Serratus_Posterior_Superior
+    13700236: Muscular_Soleus
+    13700238: Muscular_Spinalis_Dorsi
+    13700240: Muscular_Splenius_Capitis_intermediate
+    13700242: Muscular_Splenius_Cervicis
+    13700244: Muscular_Sternocleidomastoideus_superficial
+    13700246: Muscular_Sternohyoideus
+    13700248: Muscular_Sternothyroideus
+    13700250: Muscular_Stylohyoideus
+    13700252: Muscular_Subscapularis
+    13700254: Muscular_Supraspinatis
+    13700256: Muscular_Temporalis
+    13700258: Muscular_Tensor_Fascia_Latae
+    13700260: Muscular_Teres_Major
+    13700262: Muscular_Teres_Minor
+    13700264: Muscular_Thyrohyoideus
+    13700266: Muscular_Tibialis_Anterior
+    13700268: Muscular_Tibialis_Posterior
+    13700270: Muscular_Transverse_Abdominus
+    13700272: Muscular_Transversospinales
+    13700274: Muscular_Trapezius
+    13700276: Muscular_Triceps_Brachii
+    13700278: Muscular_Vastus_Lateralis
+    13700280: Muscular_Vastus_Medialis
+    13700282: Muscular_Zygomaticus_Major
+    13700284: Muscular_Zygomaticus_Minor
+    13700286: ReproductiveSystem
+    13700288: Skeletal_Calcaneus
+    13700290: Skeletal_Carpal
+    13700292: Skeletal_Cervical_Vertebra
+    13700294: Skeletal_Clavicle
+    13700296: Skeletal_Cranium
+    13700298: Skeletal_Femur
+    13700300: Skeletal_Fibula
+    13700302: Skeletal_Humerus
+    13700304: Skeletal_Malleolus
+    13700306: Skeletal_Mandible
+    13700308: Skeletal_Metacarpal
+    13700310: Skeletal_Metatarsal
+    13700312: Skeletal_Patella
+    13700314: Skeletal_Pelvis
+    13700316: Skeletal_Phalanges_Foot
+    13700318: Skeletal_Phalanges_Hand
+    13700320: Skeletal_Pubis
+    13700322: Skeletal_Radius
+    13700324: Skeletal_Ribs
+    13700326: Skeletal_Sacrum
+    13700328: Skeletal_Scapula
+    13700330: Skeletal_Sternum
+    13700332: Skeletal_Tarsal
+    13700334: Skeletal_Tibia
+    13700336: Skeletal_Ulna
+    13700338: Skeletal_Vertebral_Column
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human:
+    - boneName: mixamorig:Hips
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:LeftUpLeg
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:RightUpLeg
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:LeftLeg
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:RightLeg
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:LeftFoot
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:RightFoot
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:Spine
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:Spine1
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:Neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:LeftShoulder
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:RightShoulder
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:LeftArm
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:RightArm
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:LeftForeArm
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:RightForeArm
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:LeftHand
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:RightHand
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:LeftToeBase
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:RightToeBase
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:LeftHandIndex1
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:LeftHandIndex2
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:LeftHandIndex3
+      humanName: Left Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:RightHandIndex1
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:RightHandIndex2
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:RightHandIndex3
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: anatomy_with_only_skeletons_and_muscle(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Body_InnerEyes1
+      parentName: anatomy_with_only_skeletons_and_muscle(Clone)
+      position: {x: -0, y: 1.7127163, z: 0.031297885}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Body_OuterEyes1
+      parentName: anatomy_with_only_skeletons_and_muscle(Clone)
+      position: {x: -0, y: 1.7127279, z: 0.02993754}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Abductor_Digiti_Minimi
+      parentName: anatomy_with_only_skeletons_and_muscle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Abductor_Hallucis
+      parentName: anatomy_with_only_skeletons_and_muscle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Abductor_Pollicis_Longus
+      parentName: anatomy_with_only_skeletons_and_muscle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Adductor_Brevis
+      parentName: anatomy_with_only_skeletons_and_muscle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Adductor_Hallucis
+      parentName: anatomy_with_only_skeletons_and_muscle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Adductor_Longus
+      parentName: anatomy_with_only_skeletons_and_muscle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Adductor_Magnus
+      parentName: anatomy_with_only_skeletons_and_muscle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Adductor_Pollicis
+      parentName: anatomy_with_only_skeletons_and_muscle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Anconeus
+      parentName: anatomy_with_only_skeletons_and_muscle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Anterior_Deltoideus
+      parentName: anatomy_with_only_skeletons_and_muscle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Auricularis
+      parentName: anatomy_with_only_skeletons_and_muscle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Auricularis_Posterior
+      parentName: anatomy_with_only_skeletons_and_muscle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Biceps_Brachii
+      parentName: anatomy_with_only_skeletons_and_muscle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Biceps_Femoris
+      parentName: anatomy_with_only_skeletons_and_muscle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Brachialis
+      parentName: anatomy_with_only_skeletons_and_muscle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Brachioradialis
+      parentName: anatomy_with_only_skeletons_and_muscle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Buccinator
+      parentName: anatomy_with_only_skeletons_and_muscle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Caninus
+      parentName: anatomy_with_only_skeletons_and_muscle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Coracobrachialis
+      parentName: anatomy_with_only_skeletons_and_muscle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Corrugator
+      parentName: anatomy_with_only_skeletons_and_muscle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Depressor_Anguli_Oris
+      parentName: anatomy_with_only_skeletons_and_muscle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Depressor_Labii_Inferioris
+      parentName: anatomy_with_only_skeletons_and_muscle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Digastricus
+      parentName: anatomy_with_only_skeletons_and_muscle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Dilator_Naris
+      parentName: anatomy_with_only_skeletons_and_muscle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Dorsal_Intersosseus
+      parentName: anatomy_with_only_skeletons_and_muscle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Dorsal_Plantar_Interossei
+      parentName: anatomy_with_only_skeletons_and_muscle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Extensor_Carpi_Radialis_Brevis
+      parentName: anatomy_with_only_skeletons_and_muscle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Extensor_Carpi_Radialis_Longus
+      parentName: anatomy_with_only_skeletons_and_muscle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Extensor_Carpi_Ulnaris
+      parentName: anatomy_with_only_skeletons_and_muscle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Extensor_Digitorum
+      parentName: anatomy_with_only_skeletons_and_muscle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Extensor_Digitorum_Brevis
+      parentName: anatomy_with_only_skeletons_and_muscle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Extensor_Digitorum_Longus
+      parentName: anatomy_with_only_skeletons_and_muscle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Extensor_Hallucis_Longus
+      parentName: anatomy_with_only_skeletons_and_muscle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Extensor_Pollicis_Longus_and_Brevis
+      parentName: anatomy_with_only_skeletons_and_muscle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_First_Dorsal_Interosseus
+      parentName: anatomy_with_only_skeletons_and_muscle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Flexor_Carpi_Radialis
+      parentName: anatomy_with_only_skeletons_and_muscle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Flexor_Carpi_Ulnaris
+      parentName: anatomy_with_only_skeletons_and_muscle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Flexor_Digiti_Minimi_Brevis
+      parentName: anatomy_with_only_skeletons_and_muscle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Flexor_Digitorum_Brevis
+      parentName: anatomy_with_only_skeletons_and_muscle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Flexor_Digitorum_Longus
+      parentName: anatomy_with_only_skeletons_and_muscle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Flexor_Digitorum_Superficialis
+      parentName: anatomy_with_only_skeletons_and_muscle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Flexor_Hallucis_Brevis
+      parentName: anatomy_with_only_skeletons_and_muscle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Flexor_Hallucis_Longus
+      parentName: anatomy_with_only_skeletons_and_muscle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Flexor_Pollicis_Longus
+      parentName: anatomy_with_only_skeletons_and_muscle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Frontalis
+      parentName: anatomy_with_only_skeletons_and_muscle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Gastrocnemius
+      parentName: anatomy_with_only_skeletons_and_muscle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Gluteus_Maximus_superficial
+      parentName: anatomy_with_only_skeletons_and_muscle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Gluteus_Medius
+      parentName: anatomy_with_only_skeletons_and_muscle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Gluteus_Minimus
+      parentName: anatomy_with_only_skeletons_and_muscle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Gracilis
+      parentName: anatomy_with_only_skeletons_and_muscle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Hypothenar_Eminence
+      parentName: anatomy_with_only_skeletons_and_muscle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Iliacus
+      parentName: anatomy_with_only_skeletons_and_muscle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Illiocostalis_Lumborum
+      parentName: anatomy_with_only_skeletons_and_muscle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Infraspinatus
+      parentName: anatomy_with_only_skeletons_and_muscle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Interossei_Palmares
+      parentName: anatomy_with_only_skeletons_and_muscle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Interspinales
+      parentName: anatomy_with_only_skeletons_and_muscle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Latissimus_Dorsi
+      parentName: anatomy_with_only_skeletons_and_muscle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Levator_Costarum
+      parentName: anatomy_with_only_skeletons_and_muscle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Levator_Labii_Superioris
+      parentName: anatomy_with_only_skeletons_and_muscle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Levator_Labii_Superioris_Alaeque_Nasi
+      parentName: anatomy_with_only_skeletons_and_muscle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Levator_Scapulae
+      parentName: anatomy_with_only_skeletons_and_muscle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Longissimus_Capitis
+      parentName: anatomy_with_only_skeletons_and_muscle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Longus_Capitus
+      parentName: anatomy_with_only_skeletons_and_muscle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Longus_Colli
+      parentName: anatomy_with_only_skeletons_and_muscle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Lumbricales_Palmares
+      parentName: anatomy_with_only_skeletons_and_muscle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Masseter
+      parentName: anatomy_with_only_skeletons_and_muscle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Medial_Deltoideus
+      parentName: anatomy_with_only_skeletons_and_muscle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Mentalis
+      parentName: anatomy_with_only_skeletons_and_muscle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Mylohyoideus
+      parentName: anatomy_with_only_skeletons_and_muscle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Nasalis
+      parentName: anatomy_with_only_skeletons_and_muscle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Obliquus_Capitis_Inferior
+      parentName: anatomy_with_only_skeletons_and_muscle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Obliquus_Capitis_Superior
+      parentName: anatomy_with_only_skeletons_and_muscle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Obliquus_Externus
+      parentName: anatomy_with_only_skeletons_and_muscle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Obliquus_Internus
+      parentName: anatomy_with_only_skeletons_and_muscle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Obturator_Externus
+      parentName: anatomy_with_only_skeletons_and_muscle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Obturator_Internus
+      parentName: anatomy_with_only_skeletons_and_muscle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Occipitalis
+      parentName: anatomy_with_only_skeletons_and_muscle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Omohyoideus
+      parentName: anatomy_with_only_skeletons_and_muscle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Opponens_Pollicis
+      parentName: anatomy_with_only_skeletons_and_muscle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Orbicularis_Oculi
+      parentName: anatomy_with_only_skeletons_and_muscle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Orbicularis_Oris
+      parentName: anatomy_with_only_skeletons_and_muscle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Palmaris_Longus
+      parentName: anatomy_with_only_skeletons_and_muscle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Pectineus
+      parentName: anatomy_with_only_skeletons_and_muscle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Pectoralis_Major
+      parentName: anatomy_with_only_skeletons_and_muscle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Pectoralis_Minor
+      parentName: anatomy_with_only_skeletons_and_muscle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Peroneus_Brevis
+      parentName: anatomy_with_only_skeletons_and_muscle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Peroneus_Longus
+      parentName: anatomy_with_only_skeletons_and_muscle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Peroneus_Tertius
+      parentName: anatomy_with_only_skeletons_and_muscle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Piriformis
+      parentName: anatomy_with_only_skeletons_and_muscle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Plantar_Interossei
+      parentName: anatomy_with_only_skeletons_and_muscle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Plantar_Lumbricales
+      parentName: anatomy_with_only_skeletons_and_muscle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Plantaris
+      parentName: anatomy_with_only_skeletons_and_muscle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Popliteus
+      parentName: anatomy_with_only_skeletons_and_muscle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Posterior_Deltoideus
+      parentName: anatomy_with_only_skeletons_and_muscle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Procerus
+      parentName: anatomy_with_only_skeletons_and_muscle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Pronator_Quadratus
+      parentName: anatomy_with_only_skeletons_and_muscle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Pronator_Teres
+      parentName: anatomy_with_only_skeletons_and_muscle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Psoas_Major
+      parentName: anatomy_with_only_skeletons_and_muscle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Psoas_Minor
+      parentName: anatomy_with_only_skeletons_and_muscle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Quadratus_Femoris
+      parentName: anatomy_with_only_skeletons_and_muscle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Quadratus_Lumborum
+      parentName: anatomy_with_only_skeletons_and_muscle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Quadratus_Plantae
+      parentName: anatomy_with_only_skeletons_and_muscle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Rectus_Abdominus
+      parentName: anatomy_with_only_skeletons_and_muscle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Rectus_Capitis_Posterior_Major
+      parentName: anatomy_with_only_skeletons_and_muscle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Rectus_Capitis_Posterior_Minor
+      parentName: anatomy_with_only_skeletons_and_muscle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Rectus_Femoris
+      parentName: anatomy_with_only_skeletons_and_muscle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Rhomboideus
+      parentName: anatomy_with_only_skeletons_and_muscle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Sartorius
+      parentName: anatomy_with_only_skeletons_and_muscle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Scalenus_Anterior
+      parentName: anatomy_with_only_skeletons_and_muscle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Scalenus_Posterior
+      parentName: anatomy_with_only_skeletons_and_muscle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Semimembranosus
+      parentName: anatomy_with_only_skeletons_and_muscle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Semispinalis_Capitis
+      parentName: anatomy_with_only_skeletons_and_muscle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Semitendinosus
+      parentName: anatomy_with_only_skeletons_and_muscle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Serratus_Anterior
+      parentName: anatomy_with_only_skeletons_and_muscle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Serratus_Posterior_Inferior
+      parentName: anatomy_with_only_skeletons_and_muscle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Serratus_Posterior_Superior
+      parentName: anatomy_with_only_skeletons_and_muscle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Soleus
+      parentName: anatomy_with_only_skeletons_and_muscle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Spinalis_Dorsi
+      parentName: anatomy_with_only_skeletons_and_muscle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Splenius_Capitis_intermediate
+      parentName: anatomy_with_only_skeletons_and_muscle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Splenius_Cervicis
+      parentName: anatomy_with_only_skeletons_and_muscle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Sternocleidomastoideus_superficial
+      parentName: anatomy_with_only_skeletons_and_muscle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Sternohyoideus
+      parentName: anatomy_with_only_skeletons_and_muscle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Sternothyroideus
+      parentName: anatomy_with_only_skeletons_and_muscle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Stylohyoideus
+      parentName: anatomy_with_only_skeletons_and_muscle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Subscapularis
+      parentName: anatomy_with_only_skeletons_and_muscle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Supraspinatis
+      parentName: anatomy_with_only_skeletons_and_muscle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Temporalis
+      parentName: anatomy_with_only_skeletons_and_muscle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Tensor_Fascia_Latae
+      parentName: anatomy_with_only_skeletons_and_muscle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Teres_Major
+      parentName: anatomy_with_only_skeletons_and_muscle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Teres_Minor
+      parentName: anatomy_with_only_skeletons_and_muscle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Thyrohyoideus
+      parentName: anatomy_with_only_skeletons_and_muscle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Tibialis_Anterior
+      parentName: anatomy_with_only_skeletons_and_muscle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Tibialis_Posterior
+      parentName: anatomy_with_only_skeletons_and_muscle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Transverse_Abdominus
+      parentName: anatomy_with_only_skeletons_and_muscle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Transversospinales
+      parentName: anatomy_with_only_skeletons_and_muscle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Trapezius
+      parentName: anatomy_with_only_skeletons_and_muscle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Triceps_Brachii
+      parentName: anatomy_with_only_skeletons_and_muscle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Vastus_Lateralis
+      parentName: anatomy_with_only_skeletons_and_muscle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Vastus_Medialis
+      parentName: anatomy_with_only_skeletons_and_muscle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Zygomaticus_Major
+      parentName: anatomy_with_only_skeletons_and_muscle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Muscular_Zygomaticus_Minor
+      parentName: anatomy_with_only_skeletons_and_muscle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: ReproductiveSystem
+      parentName: anatomy_with_only_skeletons_and_muscle(Clone)
+      position: {x: -0, y: 0.9178634, z: -0.012996001}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Skeletal_Calcaneus
+      parentName: anatomy_with_only_skeletons_and_muscle(Clone)
+      position: {x: -2.447788e-10, y: 0.8297452, z: -0.04109149}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Skeletal_Carpal
+      parentName: anatomy_with_only_skeletons_and_muscle(Clone)
+      position: {x: -2.447788e-10, y: 0.8297452, z: -0.04109149}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Skeletal_Cervical_Vertebra
+      parentName: anatomy_with_only_skeletons_and_muscle(Clone)
+      position: {x: -2.447788e-10, y: 0.8297452, z: -0.04109149}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Skeletal_Clavicle
+      parentName: anatomy_with_only_skeletons_and_muscle(Clone)
+      position: {x: -2.447788e-10, y: 0.8297452, z: -0.04109149}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Skeletal_Cranium
+      parentName: anatomy_with_only_skeletons_and_muscle(Clone)
+      position: {x: -0.00010796355, y: 1.7151344, z: -0.04446599}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1.023, y: 1, z: 1}
+    - name: Skeletal_Femur
+      parentName: anatomy_with_only_skeletons_and_muscle(Clone)
+      position: {x: -2.447788e-10, y: 0.8297452, z: -0.04109149}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Skeletal_Fibula
+      parentName: anatomy_with_only_skeletons_and_muscle(Clone)
+      position: {x: -2.447788e-10, y: 0.8297452, z: -0.04109149}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Skeletal_Humerus
+      parentName: anatomy_with_only_skeletons_and_muscle(Clone)
+      position: {x: -2.447788e-10, y: 0.8297452, z: -0.04109149}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Skeletal_Malleolus
+      parentName: anatomy_with_only_skeletons_and_muscle(Clone)
+      position: {x: -2.447788e-10, y: 0.8297452, z: -0.04109149}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Skeletal_Mandible
+      parentName: anatomy_with_only_skeletons_and_muscle(Clone)
+      position: {x: 0.000028212833, y: 1.692327, z: -0.031957135}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1.023, y: 1, z: 1}
+    - name: Skeletal_Metacarpal
+      parentName: anatomy_with_only_skeletons_and_muscle(Clone)
+      position: {x: -2.447788e-10, y: 0.8297452, z: -0.04109149}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Skeletal_Metatarsal
+      parentName: anatomy_with_only_skeletons_and_muscle(Clone)
+      position: {x: -2.447788e-10, y: 0.8297452, z: -0.04109149}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Skeletal_Patella
+      parentName: anatomy_with_only_skeletons_and_muscle(Clone)
+      position: {x: -2.447788e-10, y: 0.8297452, z: -0.04109149}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Skeletal_Pelvis
+      parentName: anatomy_with_only_skeletons_and_muscle(Clone)
+      position: {x: -2.447788e-10, y: 0.8297452, z: -0.04109149}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Skeletal_Phalanges_Foot
+      parentName: anatomy_with_only_skeletons_and_muscle(Clone)
+      position: {x: -2.447788e-10, y: 0.8297452, z: -0.04109149}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Skeletal_Phalanges_Hand
+      parentName: anatomy_with_only_skeletons_and_muscle(Clone)
+      position: {x: -2.447788e-10, y: 0.8297452, z: -0.04109149}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Skeletal_Pubis
+      parentName: anatomy_with_only_skeletons_and_muscle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Skeletal_Radius
+      parentName: anatomy_with_only_skeletons_and_muscle(Clone)
+      position: {x: -2.447788e-10, y: 0.8297452, z: -0.04109149}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Skeletal_Ribs
+      parentName: anatomy_with_only_skeletons_and_muscle(Clone)
+      position: {x: -2.447788e-10, y: 0.8297452, z: -0.04109149}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Skeletal_Sacrum
+      parentName: anatomy_with_only_skeletons_and_muscle(Clone)
+      position: {x: -2.447788e-10, y: 0.8297452, z: -0.04109149}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Skeletal_Scapula
+      parentName: anatomy_with_only_skeletons_and_muscle(Clone)
+      position: {x: -2.447788e-10, y: 0.8297452, z: -0.04109149}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Skeletal_Sternum
+      parentName: anatomy_with_only_skeletons_and_muscle(Clone)
+      position: {x: -2.447788e-10, y: 0.8297452, z: -0.04109149}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Skeletal_Tarsal
+      parentName: anatomy_with_only_skeletons_and_muscle(Clone)
+      position: {x: -2.447788e-10, y: 0.8297452, z: -0.04109149}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Skeletal_Tibia
+      parentName: anatomy_with_only_skeletons_and_muscle(Clone)
+      position: {x: -2.447788e-10, y: 0.8297452, z: -0.04109149}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Skeletal_Ulna
+      parentName: anatomy_with_only_skeletons_and_muscle(Clone)
+      position: {x: -2.447788e-10, y: 0.8297452, z: -0.04109149}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Skeletal_Vertebral_Column
+      parentName: anatomy_with_only_skeletons_and_muscle(Clone)
+      position: {x: -2.447788e-10, y: 0.8297452, z: -0.04109149}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:Hips
+      parentName: anatomy_with_only_skeletons_and_muscle(Clone)
+      position: {x: 0.00000027445412, y: 1.0475855, z: -0.003203166}
+      rotation: {x: 0.000000004001273, y: 0.00000006360315, z: -0.0000021655087, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:RightUpLeg
+      parentName: mixamorig:Hips
+      position: {x: 0.092005216, y: -0.05715927, z: 0.0023882007}
+      rotation: {x: 0.0022136988, y: 0.03417448, z: 0.9993463, w: -0.011582115}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:RightLeg
+      parentName: mixamorig:RightUpLeg
+      position: {x: -4.874544e-10, y: 0.4943418, z: 0.0000000012337432}
+      rotation: {x: -0.108204395, y: 0.003288402, z: -0.025394404, w: 0.99379885}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:RightFoot
+      parentName: mixamorig:RightLeg
+      position: {x: -8.87235e-11, y: 0.41410094, z: 0.0000000014183134}
+      rotation: {x: 0.56987673, y: 0.007319551, z: 0.015497464, w: 0.82155144}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:RightToeBase
+      parentName: mixamorig:RightFoot
+      position: {x: 3.3857504e-11, y: 0.162087, z: -6.8771916e-10}
+      rotation: {x: 0.24156742, y: 0.10797272, z: -0.027057337, w: 0.96397877}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:RightToe_End
+      parentName: mixamorig:RightToeBase
+      position: {x: -2.8615332e-11, y: 0.06534658, z: -1.0529607e-10}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:LeftUpLeg
+      parentName: mixamorig:Hips
+      position: {x: -0.092005216, y: -0.05715927, z: 0.0020484733}
+      rotation: {x: -0.0022188232, y: 0.034618583, z: 0.99933106, w: 0.011577058}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:LeftLeg
+      parentName: mixamorig:LeftUpLeg
+      position: {x: 8.408941e-10, y: 0.4943411, z: 0.0000000018687563}
+      rotation: {x: -0.108756766, y: -0.0032898032, z: 0.02539165, w: 0.99373865}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:LeftFoot
+      parentName: mixamorig:LeftLeg
+      position: {x: -7.1004536e-11, y: 0.414147, z: -1.1318573e-11}
+      rotation: {x: 0.57000047, y: -0.0073183835, z: -0.015497072, w: 0.8214656}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:LeftToeBase
+      parentName: mixamorig:LeftFoot
+      position: {x: 2.2864198e-11, y: 0.16211028, z: -0.0000000049808624}
+      rotation: {x: 0.24152006, y: -0.10818659, z: 0.027105989, w: 0.9639653}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:LeftToe_End
+      parentName: mixamorig:LeftToeBase
+      position: {x: -2.5045552e-10, y: 0.0652283, z: 6.8678327e-12}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:Spine
+      parentName: mixamorig:Hips
+      position: {x: -0, y: 0.10289054, z: -0.01034111}
+      rotation: {x: -0.050063837, y: -0.00000017193733, z: 0.0000021596081, w: 0.99874604}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:Spine1
+      parentName: mixamorig:Spine
+      position: {x: -0, y: 0.12064375, z: 1.0163889e-10}
+      rotation: {x: 7.461479e-26, y: -1.1063249e-13, z: 6.744383e-13, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:Spine2
+      parentName: mixamorig:Spine1
+      position: {x: -0, y: 0.13787864, z: 3.7089193e-11}
+      rotation: {x: 0, y: -0, z: -1.656608e-29, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:RightShoulder
+      parentName: mixamorig:Spine2
+      position: {x: 0.055591658, y: 0.13098384, z: -0.0019205976}
+      rotation: {x: -0.5668453, y: -0.41598523, z: 0.5834311, w: -0.4065105}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:RightArm
+      parentName: mixamorig:RightShoulder
+      position: {x: -1.2531753e-11, y: 0.12182624, z: 3.0604497e-10}
+      rotation: {x: -0.18868522, y: 0.0083512915, z: 0.01447278, w: 0.9818955}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:RightForeArm
+      parentName: mixamorig:RightArm
+      position: {x: 0.000000001594119, y: 0.305342, z: 0.000000001756295}
+      rotation: {x: -0.000000025158748, y: -0.017935244, z: -0.000000080996855, w: 0.9998392}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:RightHand
+      parentName: mixamorig:RightForeArm
+      position: {x: 0.0000000035466357, y: 0.24479331, z: -6.539085e-10}
+      rotation: {x: -0.00000036533618, y: 0.0002559696, z: 0.0000002436967, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:RightHandIndex1
+      parentName: mixamorig:RightHand
+      position: {x: 0.0000000016223412, y: 0.07662419, z: -3.1819722e-10}
+      rotation: {x: -0.00000006267583, y: -0.00010726023, z: -0.00000034402635, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:RightHandIndex2
+      parentName: mixamorig:RightHandIndex1
+      position: {x: -2.4385713e-10, y: 0.018910343, z: -1.1929188e-10}
+      rotation: {x: -0.06425578, y: -0.000000013254323, z: 0.032755848, w: 0.99739575}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:RightHandIndex3
+      parentName: mixamorig:RightHandIndex2
+      position: {x: 0.0019298478, y: 0.029230101, z: 0.0037863888}
+      rotation: {x: 0.019676233, y: 0.005860591, z: -0.05527731, w: 0.99825996}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:RightHandIndex4
+      parentName: mixamorig:RightHandIndex3
+      position: {x: -0.0013124506, y: 0.028485298, z: 0.002553062}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:LeftShoulder
+      parentName: mixamorig:Spine2
+      position: {x: -0.055591658, y: 0.13108426, z: -0.0029196595}
+      rotation: {x: 0.56137997, y: -0.41967237, z: 0.58801883, w: 0.40368497}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:LeftArm
+      parentName: mixamorig:LeftShoulder
+      position: {x: -7.2424663e-11, y: 0.12182624, z: 2.9675476e-10}
+      rotation: {x: -0.187693, y: -0.0053466973, z: -0.024125904, w: 0.98191684}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:LeftForeArm
+      parentName: mixamorig:LeftArm
+      position: {x: 4.9916835e-11, y: 0.3051536, z: 1.6848758e-10}
+      rotation: {x: 0.000000015579541, y: 0.014840752, z: 0.00000033284255, w: 0.9998899}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:LeftHand
+      parentName: mixamorig:LeftForeArm
+      position: {x: -7.440235e-10, y: 0.24424589, z: 4.5546755e-10}
+      rotation: {x: 0.00000030733054, y: 0.0003461528, z: -0.00000023348737, w: 0.99999994}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:LeftHandIndex1
+      parentName: mixamorig:LeftHand
+      position: {x: -4.172466e-10, y: 0.074389555, z: -1.1632835e-10}
+      rotation: {x: -0.00000006806942, y: -0.0014285895, z: -0.00000022771745, w: 0.999999}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:LeftHandIndex2
+      parentName: mixamorig:LeftHandIndex1
+      position: {x: -3.8732656e-10, y: 0.019836873, z: 4.9255733e-10}
+      rotation: {x: -0.08133829, y: 0.00000008299677, z: -0.021234818, w: 0.9964603}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:LeftHandIndex3
+      parentName: mixamorig:LeftHandIndex2
+      position: {x: -0.0013210805, y: 0.030773822, z: 0.0050603063}
+      rotation: {x: -0.023465713, y: -0.016782979, z: 0.09594508, w: 0.9949685}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:LeftHandIndex4
+      parentName: mixamorig:LeftHandIndex3
+      position: {x: 0.0046079033, y: 0.029270329, z: 0.0062474655}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:Neck
+      parentName: mixamorig:Spine2
+      position: {x: -0, y: 0.15511332, z: -0.000000015217376}
+      rotation: {x: -0.03729469, y: -6.400031e-15, z: 8.4450096e-13, w: 0.9993043}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:Head
+      parentName: mixamorig:Neck
+      position: {x: -0, y: 0.04177963, z: 0.03276944}
+      rotation: {x: 0, y: 0, z: 2.1158898e-36, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:HeadTop_End
+      parentName: mixamorig:Head
+      position: {x: -0, y: 0.18327332, z: 0.14374866}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
