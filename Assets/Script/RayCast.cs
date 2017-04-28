@@ -37,7 +37,7 @@ public class RayCast : MonoBehaviour {
         else
         {
             aimingObject = null;
-            print("I'm looking at nothing!");
+            //print("I'm looking at nothing!");
 
         }
     }

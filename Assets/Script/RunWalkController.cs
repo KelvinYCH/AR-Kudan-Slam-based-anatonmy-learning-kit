@@ -7,6 +7,6 @@ public class RunWalkController : MonoBehaviour {
     public void ChangeState()
     {
         Animator animator = RayCast.aimingObject.transform.parent.GetComponent<Animator>();
-        animator.SetBool("Run",!animator.GetBool("Run"));
+        animator.SetBool("Crouch", !animator.GetBool("Crouch"));
     }
 }

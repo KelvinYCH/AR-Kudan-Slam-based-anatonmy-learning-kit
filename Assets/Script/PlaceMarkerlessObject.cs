@@ -10,6 +10,7 @@ namespace Kudan.AR
 		public KudanTracker _kudanTracker;
         public static KudanTracker kudanTracker;
         public GameObject prefab;
+        public TrackingMethodMarkerless MarkerlessTracking;
         public GameObject MarkerlessObject;
         public GameObject buttonText;
         private bool first = true;
@@ -32,6 +33,7 @@ namespace Kudan.AR
             if (first)
             {
                 first = false;
+                _kudanTracker.ChangeTrackingMethod(MarkerlessTracking);
                 _kudanTracker.ArbiTrackStart(floorPosition, floorOrientation);              // Starts markerless tracking based upon the given floor position and orientations
                 buttonText.GetComponent<Text>().text="Place Model";
                 
@@ -51,10 +53,6 @@ namespace Kudan.AR
         }
         public void Update()
         {
-            if (!first)
-            {
-                //_kudanTracker
-            }
         }
 
         public void CreateModel() {

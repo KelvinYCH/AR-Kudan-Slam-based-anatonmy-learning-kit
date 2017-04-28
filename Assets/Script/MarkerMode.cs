@@ -14,10 +14,16 @@ namespace Kudan.AR
             _kudanTracker.ChangeTrackingMethod(_markerTracking);
         }
 
+        private void Awake()
+        {
+            _kudanTracker.ChangeTrackingMethod(_markerTracking);
+        }
+
         // Update is called once per frame
         void Update()
         {
 
         }
+
     }
 }

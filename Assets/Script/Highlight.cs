@@ -13,18 +13,12 @@ public class Highlight : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        aimingObject = RayCast.aimingObject;
-	}
-
-    // Update is called once per frame
-    void LateUpdate()
-    {
-        //adding aiming object with not in list
-        if (aimingObject != null)
+        if (RayCast.aimingObject && !RayCast.aimingObject.transform.parent.CompareTag("Animation"))
         {
-            if (aimingObject.GetComponent<Highlighter>() == null)
-                aimingObject.AddComponent<Highlighter>();
-            aimingObject.GetComponent<Highlighter>().On(Color.white);
+            if (RayCast.aimingObject.GetComponent<Highlighter>() == null)
+                RayCast.aimingObject.AddComponent<Highlighter>();
+            RayCast.aimingObject.GetComponent<Highlighter>().On(Color.white);
         }
     }
+
 }
